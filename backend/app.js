@@ -6,7 +6,7 @@ const Post = require('./models/post');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://hnaidu1:hnaidu1@hnaidu0-3bzlh.mongodb.net/test?retryWrites=true', {useNewUrlParser: true})
+mongoose.connect('<MONGODB URL>', {useNewUrlParser: true})
   .then(()=>{
     console.log('Connected to the MongoDB database');
   })
